@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "@Containers/*": ["src/containers/*"],
+      "@Components/*": ["src/components/*"],
+      "@Common/*": ["src/common/*"],
+      "@Store/*": ["src/store/*"],
+      "@Layouts/*": ["src/layouts/*"],
+      "@Services/*": ["src/services/*"]
+    }
+  },
+  "include": ["src"]
+}
