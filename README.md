@@ -1,4 +1,4 @@
-# ZÉ Challenge. 
+# Challenge. 
 
 ## Setup
 
